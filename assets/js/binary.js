@@ -1,5 +1,5 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.40/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.0","target":"arcade","targetVersion":"2.0.40"}
-// total=2246558 new=25.13% cached=70.82% other=4.05%
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v2.0.40/---simulator","cdnUrl":"https://cdn.makecode.com","version":"0.0.1","target":"arcade","targetVersion":"2.0.40","repo":"ericivars/kkseca---copy---copy"}
+// total=2246452 new=25.13% cached=70.82% other=4.05%
 (function (ectx) {
 'use strict';
 const runtime = ectx.runtime;
@@ -539,7 +539,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P23864(s) {
+function _main___P23853(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -1240,13 +1240,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P23864.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P23864.continuations = [  ]
+_main___P23853.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P23853.continuations = [  ]
 
-function _main___P23864_mk(s) {
+function _main___P23853_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P23864, depth: s.depth + 1,
+        parent: s, fn: _main___P23853, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -2042,16 +2042,14 @@ switch (step) {
     { step = 14; continue; }
   case 11:
   case 12:
-    r0 = pxsim_Array__mk();
-    s.tmp_12 = r0;
-    r0 = pxsim_Array__push(s.tmp_12, globals.transparency16___4436);
-    s.tmp_13 = tiles_createTilemap__P2779_mk(s);
-    s.tmp_13.arg0 = _hex7211;
+    s.tmp_12 = tiles_createTilemap__P2779_mk(s);
+    s.tmp_12.arg0 = _hex7211;
     r0 = pxsim.image.ofBuffer(_hex7213);
-    s.tmp_13.arg1 = r0;
-    s.tmp_13.arg2 = s.tmp_12;
-    s.tmp_13.arg3 = 4;
-    s.callLocIdx = 72; s.pc = 21; return s.tmp_13;
+    s.tmp_12.arg1 = r0;
+    r0 = pxsim_Array__mk();
+    s.tmp_12.arg2 = r0;
+    s.tmp_12.arg3 = -Infinity;
+    s.callLocIdx = 72; s.pc = 21; return s.tmp_12;
   case 21:
     r0 = s.retval;
     { step = 14; continue; }
@@ -2061,7 +2059,7 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-myTiles_inline__P7100.info = {"start":2672,"length":19054,"line":53,"column":40,"endLine":173,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
+myTiles_inline__P7100.info = {"start":2682,"length":19024,"line":53,"column":40,"endLine":173,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
 
 function myTiles_inline__P7100_mk(s) {
     checkStack(s.depth);
@@ -2081,7 +2079,6 @@ function myTiles_inline__P7100_mk(s) {
   tmp_10: undefined,
   tmp_11: undefined,
   tmp_12: undefined,
-  tmp_13: undefined,
   arg0: undefined,
 } }
 
@@ -2326,7 +2323,7 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-myTiles_inline__P7219.info = {"start":21766,"length":1811,"line":175,"column":37,"endLine":228,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
+myTiles_inline__P7219.info = {"start":21746,"length":1811,"line":175,"column":37,"endLine":228,"endColumn":5,"fileName":"tilemap.g.ts","functionName":"inline","argumentNames":["name"]}
 
 function myTiles_inline__P7219_mk(s) {
     checkStack(s.depth);
@@ -2378,7 +2375,7 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-myImages_inline__P7251.info = {"start":97,"length":701,"line":3,"column":38,"endLine":26,"endColumn":5,"fileName":"images.g.ts","functionName":"inline","argumentNames":["name"]}
+myImages_inline__P7251.info = {"start":107,"length":701,"line":3,"column":38,"endLine":26,"endColumn":5,"fileName":"images.g.ts","functionName":"inline","argumentNames":["name"]}
 
 function myImages_inline__P7251_mk(s) {
     checkStack(s.depth);
@@ -2418,7 +2415,7 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-myImages_inline__P7260.info = {"start":843,"length":105,"line":28,"column":42,"endLine":33,"endColumn":5,"fileName":"images.g.ts","functionName":"inline","argumentNames":["name"]}
+myImages_inline__P7260.info = {"start":853,"length":105,"line":28,"column":42,"endLine":33,"endColumn":5,"fileName":"images.g.ts","functionName":"inline","argumentNames":["name"]}
 
 function myImages_inline__P7260_mk(s) {
     checkStack(s.depth);
@@ -2456,7 +2453,7 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-myImages_inline__P7267.info = {"start":988,"length":105,"line":35,"column":37,"endLine":40,"endColumn":5,"fileName":"images.g.ts","functionName":"inline","argumentNames":["name"]}
+myImages_inline__P7267.info = {"start":998,"length":105,"line":35,"column":37,"endLine":40,"endColumn":5,"fileName":"images.g.ts","functionName":"inline","argumentNames":["name"]}
 
 function myImages_inline__P7267_mk(s) {
     checkStack(s.depth);
@@ -61572,5 +61569,5 @@ const sprites_BaseSpriteSayRenderer__C2273_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___4436","tile10___4446","tile17___4453","tile15___4451","tile18___4454","tile19___4455","tile20___4456","tile21___4457","tile22___4458","tile23___4459","tile24___4460","tile1___4437","tile2___4438","tile3___4439","tile4___4440","tile5___4441","tile6___4442","tile7___4443","tile8___4444","tile9___4445","tile11___4447","tile12___4448","tile13___4449","tile14___4450","tile16___4452","Cerrojo___4434"])
 
-return _main___P23864
+return _main___P23853
 })
